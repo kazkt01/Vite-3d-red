@@ -64,7 +64,7 @@ thirdLight.position.set(1, 1, 1);
 // モデルの読み込み
 const loader = new GLTFLoader();
 loader.load(
-  "/tatung_einstein_tc-01/scene.gltf", // パスを修正
+  "/tatung_einstein_tc-01/scene.gltf", // パスをこのように変更
   (gltf) => {
     const mesh = gltf.scene;
     mesh.traverse((child) => {
@@ -78,10 +78,10 @@ loader.load(
     document.getElementById("progress-container").style.display = "none";
   },
   (xhr) => {
-    console.log(`loading ${(xhr.loaded / xhr.total) * 100}%`);
+    console.log(`Loading: ${(xhr.loaded / xhr.total) * 100}%`);
   },
   (error) => {
-    console.error(error);
+    console.error("GLTFLoader error:", error);
   }
 );
 
