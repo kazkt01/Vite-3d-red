@@ -62,9 +62,9 @@ scene.add(thirdLight);
 thirdLight.position.set(1, 1, 1);
 
 // モデルの読み込み
-const loader = new GLTFLoader().setPath("./tatung_einstein_tc-01/");
+const loader = new GLTFLoader();
 loader.load(
-  "scene.gltf",
+  "/tatung_einstein_tc-01/scene.gltf", // パスを修正
   (gltf) => {
     const mesh = gltf.scene;
     mesh.traverse((child) => {
