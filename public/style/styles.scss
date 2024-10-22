@@ -76,10 +76,24 @@ h3 {
     font-size: 36px;
     width: 200px;
   }
+  @media screen and (max-width: 375px) {
+    font-size: 36px;
+    width: 200px;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 20px;
+    width: 200px;
+  }
 }
 
 .etc {
   @media screen and (max-width: 320px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 425px) {
     font-size: 30px;
   }
 }
@@ -94,6 +108,12 @@ h3 {
   text-decoration: none;
   text-align: left;
   @media screen and (max-width: 320px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 425px) {
     font-size: 30px;
   }
 }

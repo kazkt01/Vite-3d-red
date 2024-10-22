@@ -82,8 +82,30 @@ h3 {
     width: 200px;
   }
 }
+@media screen and (max-width: 375px) {
+  h3 {
+    font-size: 36px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 425px) {
+  h3 {
+    font-size: 20px;
+    width: 200px;
+  }
+}
 
 @media screen and (max-width: 320px) {
+  .etc {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .etc {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 425px) {
   .etc {
     font-size: 30px;
   }
@@ -99,6 +121,16 @@ h3 {
   text-align: left;
 }
 @media screen and (max-width: 320px) {
+  .menu-items {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .menu-items {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 425px) {
   .menu-items {
     font-size: 30px;
   }
