@@ -59,7 +59,7 @@ secondLight.position.set(1, 0, 0);
 
 const thirdLight = new THREE.PointLight(0x228b22, 6, 50, 1.0);
 scene.add(thirdLight);
-thirdLight.position.set(1, 1, 1);
+secondLight.position.set(1, 1, 1); //本当はthirdLight
 
 // モデルの読み込み
 const loader = new GLTFLoader();
