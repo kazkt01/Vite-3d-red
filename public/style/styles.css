@@ -38,25 +38,27 @@ body {
 
 .sec-title-2 {
   margin-bottom: 10px;
-  width: 30%;
+  width: 100%;
   border-bottom: 1px solid #fff;
 }
 @media screen and (max-width: 320px) {
   .sec-title-2 {
     font-size: 36px;
-    width: 200px;
   }
 }
 @media screen and (max-width: 375px) {
   .sec-title-2 {
     font-size: 36px;
-    width: 200px;
   }
 }
 @media screen and (max-width: 425px) {
   .sec-title-2 {
     font-size: 20px;
-    width: 200px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .sec-title-2 {
+    font-size: 20px;
   }
 }
 

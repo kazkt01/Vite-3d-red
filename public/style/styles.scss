@@ -42,20 +42,20 @@ body {
 
 .sec-title-2 {
   margin-bottom: 10px;
-  width: 30%;
+  width: 100%;
   border-bottom: 1px solid #fff;
   // responsive
   @media screen and (max-width: 320px) {
     font-size: 36px;
-    width: 200px;
   }
   @media screen and (max-width: 375px) {
     font-size: 36px;
-    width: 200px;
   }
   @media screen and (max-width: 425px) {
     font-size: 20px;
-    width: 200px;
+  }
+  @media screen and (max-width: 1024px) {
+    font-size: 20px;
   }
 }
 
