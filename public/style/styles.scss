@@ -15,17 +15,26 @@ body {
 }
 
 // Name-title
+
+.title-box {
+  margin: 0 0 10px 0;
+}
+
 .sec-title {
   display: block;
-  margin: 0;
   font-size: 50px;
-  margin: 0 0 10px 0;
   font-weight: 100;
   text-decoration: none;
   color: white;
   width: 30%;
   &:hover {
     color: red;
+  }
+  @media screen and (max-width: 320px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 40px;
   }
 }
 
@@ -36,6 +45,12 @@ body {
   display: inline-block;
   padding: 10px;
   margin: 0;
+  @media screen and (max-width: 320px) {
+    font-size: 23px;
+  }
+  @media screen and (max-width: 375px) {
+    font-size: 19px;
+  }
 }
 
 .sec-title-2 {
